@@ -100,7 +100,7 @@ const NavBar = () => {
                 onClick={() => setNavbar(!navbar)}
                 href="/blog"
                 className={
-                  pathname === "/contact"
+                  pathname === "/blog"
                     ? "text-primary underline"
                     : "hover:text-primary"
                 }
