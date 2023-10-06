@@ -12,7 +12,7 @@ const quicksand = Quicksand({
 
 export const metadata: Metadata = {
   title: "Gifted Natus Foundation",
-  description: "Non Charitable Organisation",
+  description: "Non Governmental Organisation",
 };
 
 export default function RootLayout({
