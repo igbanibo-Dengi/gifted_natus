@@ -27,7 +27,7 @@ const Hero = () => {
           <SwiperSlide>
             <div className="h-screen sm:h-[750px] xl:h-screen relative flex items-center justify-center">
               <Image
-                src="/hero-img-1.jpg"
+                src="/hero-img-2.jpg"
                 fill
                 alt="hero image"
                 className="object-cover"
@@ -50,7 +50,7 @@ const Hero = () => {
           <SwiperSlide>
             <div className="h-screen sm:h-[750px] xl:h-screen relative flex items-center justify-center">
               <Image
-                src="/hero-img-2.jpg"
+                src="/hero-img-1.jpg"
                 fill
                 alt="hero image"
                 className="object-cover"
