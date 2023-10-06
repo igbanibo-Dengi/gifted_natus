@@ -5,6 +5,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
 import React from "react";
+import { ToastSimple } from "@/components/toastButton";
 
 const page = () => {
   const { toast } = useToast();
@@ -35,16 +36,9 @@ const page = () => {
           <Input type="email" placeholder="Enter a valid email address" />
           <Input type="phone" placeholder="Enter toyr phone number" />
           <Textarea placeholder="Type your message here." id="message-2" />
-          <Button
-            className="w-fit"
-            onClick={() => {
-              toast({
-                description: "Your message has been sent.",
-              });
-            }}
-          >
-            Submit
-          </Button>
+          <div className="w-fit">
+            <ToastSimple />
+          </div>
         </div>
       </section>
     </main>
