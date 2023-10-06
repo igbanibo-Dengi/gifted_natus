@@ -1,24 +1,28 @@
-import NavBar from '@/components/navbar'
-import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import { ThemeProvider } from '@/components/themeProvider'
+import NavBar from "@/components/navbar";
+import "./globals.css";
+import type { Metadata } from "next";
+import { Quicksand } from "next/font/google";
+import { ThemeProvider } from "@/components/themeProvider";
+import Footer from "@/components/footer";
+import { Toaster } from "@/components/ui/toaster";
 
-const inter = Inter({ subsets: ['latin'] })
+const quicksand = Quicksand({
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
-  title: 'Gifted Natus Foundation',
-  description: 'Non Charitable Organisation',
-}
+  title: "Gifted Natus Foundation",
+  description: "Non Charitable Organisation",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={quicksand.className}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -27,8 +31,10 @@ export default function RootLayout({
         >
           <NavBar />
           {children}
+          <Toaster />
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
-  )
+  );
 }

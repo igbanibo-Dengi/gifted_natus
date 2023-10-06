@@ -4,7 +4,7 @@ import { usePathname } from 'next/navigation';
 import Link from "next/link";
 import React, { useState } from "react";
 import Image from 'next/image';
-import { ModeToggle } from './themeToggle';
+import { ModeToggle } from './modeToggle';
 
 
 
@@ -13,21 +13,21 @@ const NavBar = () => {
 
   const pathname = usePathname();
   return (
-    <nav className="w-full fixed z-50 bg-background">
+    <nav className="w-full fixed z-50 bg-background shadow-md">
       <div className="justify-between md:items-center md:flex container mx-auto px-5">
         <div>
           <div className="flex items-center justify-between">
-            <Link href="/" className='pt-2'>
+            <Link href="/" className='pt-2 flex items-end'>
               <Image
-                src="/Logo.png"
-                alt='Logo'
+                src="/logo-trans.png"
+                alt='logo-trans'
                 width={50}
                 height={50}
                 className=' md:hidden'
               />
               <Image
-                src="/Logo.png"
-                alt='Logo'
+                src="/logo-trans.png"
+                alt='logo-trans'
                 width={80}
                 height={80}
                 className='hidden md:block'
@@ -72,10 +72,10 @@ const NavBar = () => {
               }`}
           >
             <div className="flex flex-col h-screen md:h-fit md:flex-row md:justify-center md:items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <Link href='/' className={pathname === '/' ? 'text-primary underline' : 'hover:text-primary'}>Home</Link>
-              <Link href='/about' className={pathname === '/about' ? 'text-primary underline' : 'hover:text-primary'}>About Us</Link>
-              <Link href='/blog' className={pathname === '/contact' ? 'text-primary underline' : 'hover:text-primary'}>Blog</Link>
-              <Link href='/contact' className={pathname === '/contact' ? 'text-primary underline' : 'hover:text-primary'}>Contact</Link>
+              <Link onClick={() => setNavbar(!navbar)} href='/' className={pathname === '/' ? 'text-primary underline' : 'hover:text-primary'}>Home</Link>
+              <Link onClick={() => setNavbar(!navbar)} href='/about' className={pathname === '/about' ? 'text-primary underline' : 'hover:text-primary'}>About Us</Link>
+              <Link onClick={() => setNavbar(!navbar)} href='/blog' className={pathname === '/contact' ? 'text-primary underline' : 'hover:text-primary'}>Blog</Link>
+              <Link onClick={() => setNavbar(!navbar)} href='/contact' className={pathname === '/contact' ? 'text-primary underline' : 'hover:text-primary'}>Contact</Link>
               <ModeToggle />
 
             </div>
