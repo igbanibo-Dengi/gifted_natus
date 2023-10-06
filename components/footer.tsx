@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col text-[12px] gap-2 md:pl-8 ">
-          <h1 className="text-[14px] text-primary font-bold">Useful Links</h1>
+          <p className="text-[14px] text-primary font-bold">Useful Links</p>
           <Link className="hover:text-primary w-fit pr-2 py-2" href="/">
             Home
           </Link>
@@ -59,7 +59,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col text-[12px] gap-5">
-          <h1 className="text-[14px] text-primary font-bold">Contact Us</h1>
+          <p className="text-[14px] text-primary font-bold">Contact Us</p>
           <div className="flex gap-5 items-center">
             <div className="text-[24px]">
               <BiSolidPhoneCall />

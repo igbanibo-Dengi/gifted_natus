@@ -2,8 +2,6 @@
 
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
-import { useToast } from "@/components/ui/use-toast";
 import React from "react";
 import { ToastSimple } from "@/components/toastButton";
 
@@ -11,9 +9,9 @@ const page = () => {
   return (
     <main className="container pt-32 pb-20">
       <header className="text-center pb-20">
-        <h1 className="leading-none text-[28px] md:text-[35px] font-bold capitalize text-center">
+        <p className="leading-none text-[28px] md:text-[35px] font-bold capitalize text-center">
           Contact
-        </h1>
+        </p>
       </header>
       <section className="flex w-full flex-col md:flex-row max-w-[1000px] mx-auto gap-10 md:gap-0">
         <div className="flex flex-col gap-4 basis-1/2">
