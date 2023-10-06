@@ -8,7 +8,6 @@ import React from "react";
 import { ToastSimple } from "@/components/toastButton";
 
 const page = () => {
-  const { toast } = useToast();
   return (
     <main className="container pt-32 pb-20">
       <header className="text-center pb-20">
