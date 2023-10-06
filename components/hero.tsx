@@ -32,17 +32,17 @@ const Hero = () => {
                 alt="hero image"
                 className="object-cover"
               />
-              <div className="w-full px-5 text-center h-full bg-black/60 pt-10 absolute text-white uppercase flex flex-col justify-center items-center">
-                <h1 className="leading-none text-[28px] md:text-[46px] lg:text-[65px] font-bold">
+              <div className="w-full px-5 text-center h-full bg-black/60 pt-10 absolute text-white flex flex-col justify-center items-center">
+                <h1 className="leading-none text-[28px] md:text-[46px] lg:text-[65px] font-bold  uppercase">
                   gifted natus foundation
                 </h1>
-                <h3 className="text-[18px] md:text-[32px] font-bold mb-3">
+                <h3 className="t uppercase ext-[18px] md:text-[32px] font-bold mb-3">
                   increasing quality of life
                 </h3>
-                <p className="max-w-[500px] text-center text-sm sm:text-[20px]">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa
-                  dolores expedita molestiae ipsum impedit. Doloremque quasi sit
-                  ullam cupiditate sequi.
+                <p className="max-w-[700px] leading-relaxed text-center text-sm sm:text-[20px]">
+                  Our goal is to impact the lives of Bayelsans with intervention
+                  programs mainly in the areas of health, education, sports,
+                  entrepreneurship, skills acquisition and youth development.
                 </p>
               </div>
             </div>
@@ -55,17 +55,17 @@ const Hero = () => {
                 alt="hero image"
                 className="object-cover"
               />
-              <div className="w-full px-5 text-center h-full bg-black/60 pt-10 absolute text-white uppercase flex flex-col justify-center items-center">
-                <p className="leading-none text-[28px] md:text-[46px] lg:text-[65px] font-bold">
+              <div className="w-full px-5 text-center h-full bg-black/60 pt-10 absolute text-white flex flex-col justify-center items-center">
+                <p className="leading-none text-[28px] md:text-[46px] lg:text-[65px] font-bold  uppercase">
                   gifted natus foundation
                 </p>
-                <p className="text-[18px] md:text-[32px] font-bold mb-3">
+                <p className="t uppercase ext-[18px] md:text-[32px] font-bold mb-3">
                   increasing quality of life
                 </p>
-                <p className="max-w-[500px] text-center text-sm sm:text-[20px]">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa
-                  dolores expedita molestiae ipsum impedit. Doloremque quasi sit
-                  ullam cupiditate sequi.
+                <p className="max-w-[700px] leading-relaxed text-center text-sm sm:text-[20px]">
+                  Our goal is to impact the lives of Bayelsans with intervention
+                  programs mainly in the areas of health, education, sports,
+                  entrepreneurship, skills acquisition and youth development.
                 </p>
               </div>
             </div>
@@ -78,17 +78,17 @@ const Hero = () => {
                 alt="hero image"
                 className="object-cover"
               />
-              <div className="w-full px-5 text-center h-full bg-black/60 pt-10 absolute text-white uppercase flex flex-col justify-center items-center">
-                <p className="leading-none text-[28px] md:text-[46px] lg:text-[65px] font-bold">
+              <div className="w-full px-5 text-center h-full bg-black/60 pt-10 absolute text-white flex flex-col justify-center items-center">
+                <p className="leading-none text-[28px] md:text-[46px] lg:text-[65px] font-bold  uppercase">
                   gifted natus foundation
                 </p>
-                <h3 className="text-[18px] md:text-[32px] font-bold mb-3">
+                <h3 className=" uppercase text-[18px] md:text-[32px] font-bold mb-3">
                   increasing quality of life
                 </h3>
-                <p className="max-w-[500px] text-center text-sm sm:text-[20px]">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa
-                  dolores expedita molestiae ipsum impedit. Doloremque quasi sit
-                  ullam cupiditate sequi.
+                <p className="max-w-[700px] leading-relaxed text-center text-sm sm:text-[20px]">
+                  Our goal is to impact the lives of Bayelsans with intervention
+                  programs mainly in the areas of health, education, sports,
+                  entrepreneurship, skills acquisition and youth development.
                 </p>
               </div>
             </div>

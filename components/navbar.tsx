@@ -15,22 +15,22 @@ const NavBar = () => {
       <div className="justify-between md:items-center md:flex container mx-auto px-5">
         <div>
           <div className="flex items-center justify-between">
-            <div className="pt-2 flex items-end">
+            <Link href="/" className="pt-2 flex items-end">
               <Image
-                src="/logo-trans.png"
-                alt="logo-trans"
+                src="/Logo-trans.png"
+                alt="Logo-trans"
                 width={50}
                 height={50}
                 className=" md:hidden"
               />
               <Image
-                src="/logo-trans.png"
+                src="/Logo-trans.png"
                 alt="logo-trans"
                 width={80}
                 height={80}
                 className="hidden md:block"
               />
-            </div>
+            </Link>
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
