@@ -8,7 +8,7 @@ const page = () => {
         Our Stories
       </h1>
       <Posts />
-      <section className="max-w-[800px] mx-auto mb-20 flex justify-between">
+      <section className="max-w-[800px] mx-auto mb-20 flex justify-between p-1">
         <div className="cursor-not-allowed">
           <Button disabled className="cursor-not-allowed">
             PREV
